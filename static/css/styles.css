@@ -162,14 +162,14 @@ footer p{
         margin: auto;
     }
     header .navbar{
-        width: 80%;
+        width: 100%;
         margin: auto;
     }
     .navbar ul li a{
         margin-left: 0;
     }
     main{
-        width: 80%;
+        width: 100%;
     }
     section{
         padding-left: 0;
