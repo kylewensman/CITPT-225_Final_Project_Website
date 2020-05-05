@@ -157,19 +157,19 @@ footer p{
         font-size: .85em;
     }
     body{
-        background: none;
-        width: 100;
+        /* background: none; */
+        width: 100%;
         margin: auto;
     }
     header .navbar{
-        width: 100%;
+        width: 80%;
         margin: auto;
     }
     .navbar ul li a{
         margin-left: 0;
     }
     main{
-        width: 100%;
+        width: 80%;
     }
     section{
         padding-left: 0;
