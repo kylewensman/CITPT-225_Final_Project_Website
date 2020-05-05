@@ -11,9 +11,9 @@
             {{ range $pages }}
                 <li>
                     {{- if eq . $ -}}
-                        <a class="nav-item nav-link center" href="{{ .Site.BaseURL }}"><button class="button">Home</button></a>
+                        <a class="nav-item nav-link center box curmudgeon" href="{{ .Site.BaseURL }}">Home</a>
                     {{- else -}}
-                        <a class="nav-item nav-link center" href="{{ with .Params.actualurl }}{{ . | relURL }}{{ else }}{{ .Permalink }}{{ end }}"><button class="button raise">{{ .Title }}</button></a>
+                        <a class="nav-item nav-link center box curmudgeon" href="{{ with .Params.actualurl }}{{ . | relURL }}{{ else }}{{ .Permalink }}{{ end }}">{{ .Title }}</a>
                     {{- end -}}
                 </li>
             {{- end }}
