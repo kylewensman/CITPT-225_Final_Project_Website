@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
-    <img src="{{ .Site.BaseURL }}../img/San_Joaquin_Valley_Town_Hall.jpg" alt="">
+    <img src="{{ .Site.BaseURL }}../img/Perfection_lawn_and_Snow_Removal_logo.png" alt="">
     <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{.Site.Title}}</a>
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -11,7 +11,7 @@
             {{ range $pages }}
                 <li>
                     {{- if eq . $ -}}
-                        <a class="nav-item nav-link center box curmudgeon" href="{{ .Site.BaseURL }}">Home</a>
+                        <a class="nav-item nav-link center box curmudgeon" href="{{ .Site.BaseURL }}">{{ .Title }}</a>
                     {{- else -}}
                         <a class="nav-item nav-link center box curmudgeon" href="{{ with .Params.actualurl }}{{ . | relURL }}{{ else }}{{ .Permalink }}{{ end }}">{{ .Title }}</a>
                     {{- end -}}
@@ -21,13 +21,13 @@
     </div>
 </nav>
 <script>
-    (function() {
-        const links = document.getElementsByTagName('a')
-        const currentUrl = location.href
-        for (const link of links) {
-            if (link.href === currentUrl) {
-                link.classList.add('selected')
-            }
-        }
-    }())
+    // (function() {
+    //     const links = document.getElementsByTagName('a')
+    //     const currentUrl = location.href
+    //     for (const link of links) {
+    //         if (link.href === currentUrl) {
+    //             link.classList.add('selected')
+    //         }
+    //     }
+    // }())
 </script>

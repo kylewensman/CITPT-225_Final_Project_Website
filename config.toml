@@ -1,6 +1,7 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Perfection lawn & Snow Removal"
+description = "Home"
 
 [markup.goldmark.renderer]
 unsafe= true
