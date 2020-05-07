@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>Page</title>
-      <link>/page/</link>
+      <title>Contact Us</title>
+      <link>/contact/</link>
       <pubDate>Wed, 08 Apr 2020 20:37:07 -0700</pubDate>
       
-      <guid>/page/</guid>
-      <description></description>
+      <guid>/contact/</guid>
+      <description> Thank you
+  First Name: *  Last Name: *    Street Address: *  Street Address Line 2:    City: *  State: *  Zip Code: *    Email Address *  Phone Number: *    Submit   </description>
     </item>
     
   </channel>
