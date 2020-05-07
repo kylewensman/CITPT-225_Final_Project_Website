@@ -34,7 +34,7 @@ weight: 1
             </div>
         </div>
         <div class="form-row">
-            <div class="col">
+            <div class="col-7">
                 <label for="city">City: *</label>
                 <input type="text" class="form-control" id="city" placeholder="City" name="city" required>
             </div>
@@ -43,7 +43,7 @@ weight: 1
                 <input type="text" class="form-control" id="state" placeholder="State" name="state" required>
             </div>
             <div class="col">
-                <label for="zip_code">Zip Code: *</label>
+                <label for="zip_code">Zip: *</label>
                 <input id="zip_code" type="text" class="form-control" placeholder="Zip Code" name="zip_code" inputmode="numeric" pattern="^(?(^00000(|-0000))|(\d{5}(|-\d{4})))$" required>
             </div>
         </div>
@@ -59,6 +59,10 @@ weight: 1
                 <input type="tel" class="form-control" id="phone_number" placeholder="Phone Number" name="phone_number" required>
             </div>
         </div>
+    </div>
+    <div class="form-group">
+        <label for="description">Description of Job: *</label>
+        <textarea id="description" rows="4" cols="50" class="form-control" name="description" required></textarea>
     </div>
     <div class="text-center">
         <button type="submit" class="btn btn-primary">Submit</button>

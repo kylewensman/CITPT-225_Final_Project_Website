@@ -18,7 +18,7 @@
       
       <guid>/contact/</guid>
       <description> Thank you
-  First Name: *  Last Name: *    Street Address: *  Street Address Line 2:    City: *  State: *  Zip Code: *    Email Address *  Phone Number: *    Submit   </description>
+  First Name: *  Last Name: *    Street Address: *  Street Address Line 2:    City: *  State: *  Zip: *    Email Address *  Phone Number: *    Description of Job: *   Submit   </description>
     </item>
     
   </channel>
