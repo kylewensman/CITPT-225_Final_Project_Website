@@ -197,4 +197,7 @@ form button[type="submit"]{
         border: none;
         transition: none;
     }
+    #services .row{
+        float: none;
+    }
 }
