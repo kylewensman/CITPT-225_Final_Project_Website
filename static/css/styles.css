@@ -68,7 +68,7 @@ footer p{
 header .navbar{
     
     /* background: #007ea1 !important; */
-    background: url("https://www.transparenttextures.com/patterns/bedge-grunge.png") #007ea1;
+    background: url("../../img/bedge_grunge.png") #007ea1;
     width: 70%;
     margin: 0 auto;
     /* border-bottom: 6px solid #4A6C2F; */
@@ -122,7 +122,7 @@ header .navbar{
 /*############################################################## Global Styles End ##############################################################*/
 
 /*##############################################################  Home Page Start ############################################################## */
-.jumbotron a{
+#home-jumbotron a{
     width: 18%;
     min-width: fit-content;
 }
@@ -135,9 +135,11 @@ header .navbar{
 }
 #services .row:nth-of-type(even) img {
     float: left;
+    padding-right: 1.2em;
 }
 #services .row:nth-of-type(odd) img {
     float: right;
+    padding-left: 1.2em;
 }
 #contact{
     width: 40%;
@@ -154,9 +156,20 @@ header .navbar{
 /*############################################################## Home Page End ##############################################################*/
 
 /*############################################################## Contact Page Start ##############################################################*/
+#form-jumbotron .container{
+    padding: 2rem 1rem;
+}
+#form-jumbotron p{
+    text-align: center;
+    color: #228B22;
+}
 form{
     width: 70%;
     margin: 0 auto;
+}
+.form-control:focus{
+    border-color: #007ea1 !important;
+    box-shadow: 0 0 0 0.2rem #007ea1 !important;
 }
 .form-group{
     padding-bottom: 5px;

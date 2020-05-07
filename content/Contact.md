@@ -4,9 +4,9 @@ date: 2020-04-08T20:37:07-07:00
 draft: false
 weight: 1
 ---
-<section>
-    <div class="container">
-        <p>Thank you</p>
+<section id="form-jumbotron">
+    <div class="container jumbotron">
+        <p>Thank you for considering us. Give us a try, you won't regret it. We will get back to you within 24 hours.</p>
     </div>
 </section>
 <form action="https://formspree.io/kjwensman@lcmail.lcsc.edu" method="POST">
