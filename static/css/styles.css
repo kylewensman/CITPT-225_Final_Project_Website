@@ -216,9 +216,11 @@ form button[type="submit"]{
     }
     #services .row:nth-of-type(even) img {
         float: none;
+        padding: 0;
     }
     #services .row:nth-of-type(odd) img {
         float: none;
+        padding: 0;
     }
     #contact{
         width: 100%;
