@@ -40,6 +40,9 @@ h1, h2{
     color: #F7CB35 !important;
     background-color: #007ea1 !important;
 }
+.btn-primary:focus, .btn-outline-primary:focus{
+    box-shadow: 0 0 0 0.2rem #F7CB35 !important;
+}
 .btn-primary{
     background-color: #007ea1 !important;
     color: white !important;
@@ -148,7 +151,7 @@ header .navbar{
 }
 #contact .container{
     padding: 1.2em;
-    border: 3px solid #F7CB35;
+    border: 1.2px solid #F7CB35;
 }
 #contact h4{
     margin: 15px 0 15px 0;
@@ -168,8 +171,8 @@ form{
     margin: 0 auto;
 }
 .form-control:focus{
-    border-color: #007ea1 !important;
-    box-shadow: 0 0 0 0.2rem #007ea1 !important;
+    border-color: #F7CB35 !important;
+    box-shadow: 0 0 0 0.2rem #F7CB35 !important;
 }
 .form-group{
     padding-bottom: 5px;
