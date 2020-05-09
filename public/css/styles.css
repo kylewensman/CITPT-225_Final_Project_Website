@@ -69,12 +69,9 @@ footer p{
 
 /*############################################################## Navigation/Header Start ##############################################################*/
 header .navbar{
-    
-    /* background: #007ea1 !important; */
     background: url("../../img/bedge_grunge.png") #007ea1;
     width: 70%;
     margin: 0 auto;
-    /* border-bottom: 6px solid #4A6C2F; */
 }
 .navbar img{
     min-width: 100px;
